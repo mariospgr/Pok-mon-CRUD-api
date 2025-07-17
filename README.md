@@ -12,12 +12,12 @@ Aplicación web para construir y gestionar equipos Pokémon con funcionalidades 
 
 | Funcionalidad               | Descripción                                                                 |
 |-----------------------------|-----------------------------------------------------------------------------|
-| **Listado de Pokémon**      | 151 Pokémon de la primera generación con imágenes                          |
-| **Sistema de Equipos**      | Selección de hasta 6 Pokémon con persistencia en LocalStorage              |
-| **Búsqueda Inteligente**    | Filtrado en tiempo real por nombre o número                                |
-| **Gestión de Equipos**      | CRUD completo: Crear, Leer, Actualizar y Eliminar equipos guardados        |
-| **Validación de Datos**     | Verificación de correo electrónico y campos obligatorios                   |
-| **Diseño Responsive**       | Adaptable a móviles y tablets                                              |
+| **Listado de Pokémon**      | 151 Pokémon de la primera generación con imágenes de 8 bits                 |
+| **Sistema de Equipos**      | Selección de hasta 6 Pokémon con persistencia en LocalStorage               |
+| **Búsqueda Inteligente**    | Filtrado en tiempo real por nombre o número                                 |
+| **Gestión de Equipos**      | CRUD completo: Crear, Leer, Actualizar y Eliminar equipos guardados         |
+| **Validación de Datos**     | Verificación de correo electrónico y campos obligatorios                    |
+| **Diseño Responsive**       | Adaptable a móviles y tablets                                               |
 
 ## 🚀 Cómo Usar
 

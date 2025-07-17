@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Equipo Pokémon CRUD</title>
+    <link rel="stylesheet" href="estilos.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <div class="contenedorPrincipal">
+        <h1>Equipo Pokémon CRUD</h1>
+        <div class="contenedorBusqueda">
+            <input type="text" id="busquedaPokemon" placeholder="Buscar Pokémon...">
+        </div>
+        <div class="contenedorColumnas">
+            <div class="columnaDisponibles">
+                <h2>Pokémon disponibles</h2>
+                <div class="cuadriculaPokemon" id="listaPokemon"></div>
+            </div>
+            <div class="columnaEquipo">
+                <h2>Tu equipo Pokémon <span>(máximo 6)</span></h2>
+                <div class="listaEquipo" id="equipoPokemon"></div>
+                <div class="datosUsuario" style="margin:20px 0 0 0;">
+                    <input type="text" id="nombreUsuario" placeholder="Nombre" style="width:100%;margin-bottom:10px;padding:10px;border-radius:6px;border:1px solid #ccc;">
+                    <input type="email" id="correoUsuario" placeholder="Correo electrónico" style="width:100%;margin-bottom:10px;padding:10px;border-radius:6px;border:1px solid #ccc;">
+                </div>
+                <button id="guardarEquipo">Guardar equipo</button>
+                <div id="mensajeGuardado"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
